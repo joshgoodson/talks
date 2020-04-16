@@ -1,3 +1,3 @@
 # talks
 
-[Lambda Concurrency](/lambda_concurrency.html)
+[Lambda Concurrency](/talks/lambda_concurrency.html)
