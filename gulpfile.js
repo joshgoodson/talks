@@ -18,7 +18,7 @@ gulp.task("serve", function () {
 
 gulp.task("deploy", function () {
   return gulp
-    .src(["index.html", "slides/*", "css/*", "node_modules/reveal.js/**"], {
+    .src(["index.html", "slides/*", "css/*"], {
       base: ".",
     })
     .pipe($.ghPages());
