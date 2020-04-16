@@ -1,7 +1,7 @@
-### What does Provisioned mean?
+### Provisioned Concurrency
 
-To enable your function to scale without fluctuations in latency, use provisioned concurrency.
+When Lambda allocates an instance of your function, the runtime loads your function's code and runs initialization code that you define outside of the handler.
 
-By allocating provisioned concurrency before an increase in invocations, you can ensure that all requests are served by initialized instances with very low latency.
+If your code and dependencies are large, or you create SDK clients during initialization, this process can take some time.
 
-You can configure provisioned concurrency on a version of a function, or on an alias.
+As your function scales up, this causes the portion of requests that are served by new instances to have higher latency than the rest.

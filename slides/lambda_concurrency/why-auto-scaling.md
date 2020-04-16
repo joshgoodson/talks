@@ -1,4 +1,4 @@
-### Do we have to manually manage concurrency?
+### Lambda concurrency auto scaling
 
 Lambda also integrates with Application Auto Scaling. You can configure Application Auto Scaling to manage provisioned concurrency on a schedule or based on utilization.
 
