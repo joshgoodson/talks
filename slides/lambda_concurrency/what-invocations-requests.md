@@ -1,4 +1,4 @@
-### Invocations and requests
+### Invocations and Requests
 
 When your function is invoked, Lambda allocates an instance of it to process the event.
 
