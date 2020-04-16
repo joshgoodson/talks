@@ -1,4 +1,4 @@
-### So why would we need to consider provisioned?
+### So why would we need to consider Provisioned?
 
 When Lambda allocates an instance of your function, the runtime loads your function's code and runs initialization code that you define outside of the handler.
 

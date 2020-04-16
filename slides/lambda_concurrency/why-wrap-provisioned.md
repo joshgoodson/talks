@@ -1,4 +1,4 @@
-### That sounds great, but why would Provisioned be needed?
+### Why would Provisioned be needed?
 
 Provisioned concurrency counts towards a function's reserved concurrency and Regional limits.
 
