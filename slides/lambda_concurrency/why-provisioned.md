@@ -1,4 +1,4 @@
-### What does it mean?
+### What does Provisioned mean?
 
 To enable your function to scale without fluctuations in latency, use provisioned concurrency.
 
